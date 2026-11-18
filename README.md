@@ -1,6 +1,7 @@
 # PDF editor
 
-Program pre Windows na úpravu PDF súborov. Beží úplne lokálne, súbory nikam neodosiela.
+Program pre Windows na úpravu PDF súborov. Beží lokálne, súbory nikam neodosiela
+(kvôli licencii sa raz za týždeň spojí s licenčným serverom – posiela len kód počítača, licenčný kľúč a verziu).
 
 **Stiahnutie:** [PdfEditor.exe z poslednej verzie](https://github.com/martinmachava-gif/pdf-editor/releases/latest/download/PdfEditor.exe)
 (všetky verzie sú v časti [Releases](https://github.com/martinmachava-gif/pdf-editor/releases)).
@@ -36,6 +37,8 @@ Je to jeden súbor pre Windows 10/11 (64-bit), netreba nič inštalovať. Pri pr
   formát PAdES; pri otvorení editor overí, či sa podpísaný dokument nezmenil
 - Späť / Znova, kopírovanie objektov medzi stranami (Ctrl+C / Ctrl+V), tlač
 - Pomoc → *Otvárať PDF súbory týmto editorom* pridá editor do ponuky „Otvoriť pomocou“
+- **licencia**: 14 dní zadarmo plná verzia, potom s licenčným kľúčom (Pomoc → Licencia);
+  bez licencie ostáva prezeranie, hľadanie, kopírovanie textu a tlač
 
 ## Čo nevie
 
@@ -46,6 +49,12 @@ Je to jeden súbor pre Windows 10/11 (64-bit), netreba nič inštalovať. Pri pr
   pri pečiatkach, rukopise a drobnom písme sa rozpoznávanie môže pomýliť
 
 ## Licencia a použité knižnice
+
+Od verzie 1.5.0 program potrebuje licenciu. Po prvom spustení ponúkne **14 dní zadarmo** plnú verziu
+(raz na počítač, treba internet). Potom sa zadá **licenčný kľúč** v okne Pomoc → Licencia; licencia platí
+na počítači, kde bola aktivovaná, a dá sa preniesť na iný (Deaktivovať na tomto počítači). Počítač bez internetu
+sa dá aktivovať ručne kódom poslaným e-mailom. Bez licencie môžete PDF ďalej prezerať, hľadať v nich,
+kopírovať text a tlačiť.
 
 Zdrojový kód programu nie je verejný. Všetky práva vyhradené.
 
